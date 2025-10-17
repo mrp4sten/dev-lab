@@ -19,10 +19,9 @@ set -euo pipefail
 
 # Configuration
 readonly SCRIPT_NAME="$(basename "$0")"
-readonly SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly SONARQUBE_PORT="${SONARQUBE_PORT:-9000}"
 readonly SONARQUBE_VERSION="${SONARQUBE_VERSION:-community}"
-readonly COMPOSE_FILE="${SCRIPT_DIR}/docker-compose.yml"
+readonly COMPOSE_FILE="../docker-compose.yml"
 
 # Colors for output
 readonly RED='\033[0;31m'
