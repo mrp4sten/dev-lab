@@ -5,11 +5,14 @@ This directory contains templates for quickly bootstrapping new projects and com
 ## Available Templates
 
 ### Project Templates
-- **web-app** - Modern web application with build tooling
-- **api-service** - REST API service template
-- **cli-tool** - Command-line tool template
-- **library** - Reusable library template
-- **fullstack** - Full-stack application template
+- **web-app** - Modern web application (Vite + React + TypeScript + Vitest)
+- **api-service** - REST API service template *(planned)*
+- **cli-tool** - Command-line tool template *(planned)*
+- **library** - Reusable library template *(planned)*
+- **fullstack** - Full-stack application template *(planned)*
+
+### Agent & AI Templates
+- **AGENTS-template.md** - Generic template for writing `AGENTS.md` files for any project
 
 ### Component Templates
 - **component** - Generic component template
